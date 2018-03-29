@@ -1,0 +1,2 @@
+JDK1.8新增了在接口中定义default方法的特性，主要是用于在接口中新增特性后，实现其接口的子类不需要实现新增特性的接口，即可拥有新的特性。
+MapperProxy类中invoke方法中isDefaultMethod分支会在调用接口的default方法时调用。
